@@ -1,0 +1,17 @@
+.news-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#news-list {
+    list-style: none;
+    padding: 0;
+}
+
+#loading-indicator {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: gray;
+}

@@ -1,0 +1,38 @@
+.gallery-image-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#gallery-image {
+    max-width: 100%;
+}
+
+.gallery-button-container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+button {
+    background-color: #2196F3;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
